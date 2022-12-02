@@ -1,6 +1,7 @@
 version: "3.7"
 
 services:
-  volumes:
-    - codebase:/var/www/html
+  mariadb:
+    volumes:
+      - /home/artem/dlog:/var/lib/mysql 
 
