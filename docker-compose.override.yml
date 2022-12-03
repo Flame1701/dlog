@@ -3,5 +3,4 @@ version: "3.7"
 services:
   mariadb:
     volumes:
-      - /home/artem/dlog:/var/lib/mysql 
-
+      - /home/artem/dlog/bd:/var/lib/mysql
